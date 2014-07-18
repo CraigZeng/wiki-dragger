@@ -1,0 +1,79 @@
+
+body{
+	background-color: #FFFFFF;
+	font-family: "微软雅黑","黑体","宋体","arial";
+	font-size: 12px;
+	line-height: 19px;
+}
+
+.mainnav > .nav li{
+    margin: 0px;
+}
+.mainnav > .nav > li  a {
+    background-color: #f4f4f4;
+    height: 42px;
+    display: block;
+    line-height: 45px;
+    padding: 0 8px;
+    border-bottom: 1px solid white;
+    border-top: 1px solid #e7e7e7;
+    text-align: left;
+    overflow: hidden;
+    *zoom: 1;
+    overflow: visible !important;
+}
+
+.mainnav > .nav > li .nav  a {
+    background-color: #f4f4f4;
+    height: 30px;
+    display: block;
+    line-height: 32px;
+    padding: 0 15px;
+    border-bottom: 1px solid white;
+    border-top: 1px solid #e7e7e7;
+    overflow: hidden;
+    *zoom: 1;
+    overflow: visible !important;
+}
+
+.mainnav > .nav > li.active > a,.mainnav > .nav > li:hover > a{
+	background-color: #FEFEFE;
+}
+
+.mainnav > .nav > li .nav>li.active>a,.mainnav > .nav > li .nav>li:hover>a{
+    background-color: #ECECEC;
+    border-top: 1px solid #cbcbcb;
+}
+
+.mainnav > .nav > li > span{
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: inherit;
+    height:19px;
+    line-height: 19px;
+    content: "\f078";
+    float: right; 
+}
+
+.mainnav > .nav > li > a > span{
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: inherit;
+    height:42px;
+    line-height: 45px;
+    content: "\f078";
+    float: right; 
+}
+
+.mainnav > .nav > li  .nav > li > span{
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: inherit;
+    height:19px;
+    line-height: 19px;
+    content: "\f078";
+    float: right; 
+}

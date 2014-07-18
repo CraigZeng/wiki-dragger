@@ -1,0 +1,77 @@
+  .dragging-wrap .component-menu{
+        display: none;
+  }
+  
+  .component-container.component-dashed{
+	border-color: #aaa;
+  }
+  
+  .component-dashed .component-body{
+	border: 1px dashed #aaa;
+  }
+  
+  .component-container{
+	border: 15px solid #eee;
+	position: relative;
+  }
+  
+  .component-container .component-menu{
+	position: absolute;
+	z-index: 100;
+	right: 10px;
+	top: 5px;
+  }
+  
+  .component-container .component-menu .sys-menu{
+	cursor: pointer;
+  }
+  
+  .component-container .component-body{
+	padding: 0;
+  }
+  
+  .component-body *{
+	padding: 0;
+	margin: 0;
+  }
+  
+  .wiki-container{
+	margin-top: 5px;
+	border: 1px solid #eee;
+	min-height: 500px;
+	margin-left: 310px;
+  }
+  
+  .wiki-container.wiki-container-hover,
+  .wiki-container:hover{
+	border-color: #ccc;
+	cursor: default;
+  }
+  
+  .sidebar-nav{
+	float: left;
+	width: 300px;
+  }
+  
+  .sidebar-nav .nav{
+	padding-left: 30px;
+	padding-right: 15px;
+  }
+  
+  .sidebar-nav .nav .fa{
+	float: right;
+  }
+  .wiki .edit .container{
+	margin: 0;
+	padding: 10px;
+	width: 100%;
+  }
+  
+  .wiki .container .moving {
+	cursor: move;
+  }
+  
+  .child-components{
+	padding: 15px;
+  }
+      
